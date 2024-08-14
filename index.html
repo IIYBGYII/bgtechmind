@@ -3,35 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Início</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Agência de Design Gráfico</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <a href="index.html" class="logo"><img src="logo.png" alt="Logo" aria-label="Logo"></a>
+        <div class="logo">
+            <a href="index.html"><img src="caminho/para/sua/logo.png" alt="Logo da Agência"></a>
+        </div>
         <nav>
-            <ul>
-                <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram">Instagram</a></li>
-                <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook">Facebook</a></li>
-                <li><a href="portfolio.html" aria-label="Portfólio">Portfólio</a></li>
+            <ul class="menu">
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Transforme Suas Ideias em Arte</h1>
-        <p>Serviços de Design Gráfico Personalizados para Impulsionar Sua Marca</p>
-        <button onclick="window.location.href='portfolio.html'" aria-label="Veja nosso portfólio">Veja nosso portfólio</button>
-    </main>
-    <section aria-labelledby="servicos">
-        <h2 id="servicos">Nossos Serviços</h2>
+
+    <!-- Imagem de fundo fixa com texto -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bem-vindo à nossa Agência de Design</h1>
+            <p>Transformando ideias em realidade</p>
+        </div>
+    </section>
+
+    <!-- Botão de Fale Conosco -->
+    <section class="contact">
+        <a href="https://wa.me/seu-numero-de-whatsapp" class="contact-button">Fale Conosco</a>
+    </section>
+
+    <!-- Lista de Serviços -->
+    <section class="services">
+        <h2>Nossos Serviços</h2>
         <ul>
-            <li><img src="design.png" alt="Design Gráfico" aria-label="Design Gráfico">Design Gráfico</li>
-            <li><img src="branding.png" alt="Branding" aria-label="Branding">Branding</li>
-            <li><img src="web.png" alt="Web Design" aria-label="Web Design">Web Design</li>
+            <li>Design de Logotipos</li>
+            <li>Identidade Visual</li>
+            <li>Ilustração</li>
+            <li>Design de Embalagens</li>
+            <li>Design de Materiais Impressos</li>
+            <li>Edição de Imagens</li>
+            <li>Design de Apresentações</li>
+            <li>Design de Produtos</li>
+            <li>Serviços de Digitação</li>
         </ul>
     </section>
+
+    <!-- Rodapé -->
     <footer>
-        <p>Contato: contato@exemplo.com | Telefone: (21) 1234-5678</p>
+        
+        <div class="social-icons">
+            <a href="link-para-sua-rede-social"><img src="caminho/para/icone-facebook.png" alt="Facebook"></a>
+            <a href="link-para-sua-rede-social"><img src="caminho/para/icone-instagram.png" alt="Instagram"></a>
+            <p>© 2024 Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
