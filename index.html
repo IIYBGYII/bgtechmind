@@ -8,18 +8,30 @@
 </head>
 <body>
     <header>
-        <a href="index.html" class="logo">Minha Logo</a>
+        <a href="index.html" class="logo"><img src="logo.png" alt="Logo" aria-label="Logo"></a>
         <nav>
             <ul>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="https://www.instagram.com" target="_blank" aria-label="Instagram">Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" aria-label="Facebook">Facebook</a></li>
+                <li><a href="portfolio.html" aria-label="Portfólio">Portfólio</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Transforme Suas Ideias em Arte</h1>
         <p>Serviços de Design Gráfico Personalizados para Impulsionar Sua Marca</p>
+        <button onclick="window.location.href='portfolio.html'" aria-label="Veja nosso portfólio">Veja nosso portfólio</button>
     </main>
+    <section aria-labelledby="servicos">
+        <h2 id="servicos">Nossos Serviços</h2>
+        <ul>
+            <li><img src="design.png" alt="Design Gráfico" aria-label="Design Gráfico">Design Gráfico</li>
+            <li><img src="branding.png" alt="Branding" aria-label="Branding">Branding</li>
+            <li><img src="web.png" alt="Web Design" aria-label="Web Design">Web Design</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contato: contato@exemplo.com | Telefone: (21) 1234-5678</p>
+    </footer>
 </body>
 </html>
