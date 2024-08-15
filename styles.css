@@ -210,8 +210,10 @@ footer {
 
 /* Adicione isso ao seu arquivo styles.css */
 .gallery img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
+
+
