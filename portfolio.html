@@ -24,14 +24,20 @@
     <section class="portfolio">
         <h2>Nosso Portfólio</h2>
         <div class="gallery">
-            <img src="FlyerADMBG-12-de-junho.png" alt="Projeto 1" class="portfolio-img">
-            <img src="diac. ronald.png" alt="Projeto 2">
-            <img src="Coffee-Flyer.jpg" alt="Projeto 3">
-            <img src="Sabor & Aroma.png" alt="Projeto 4">
+            <img src="FlyerADMBG-12-de-junho.png" alt="Projeto 1" class="portfolio-img" onclick="openModal(this)">
+            <img src="diac. ronald.png" alt="Projeto 2" onclick="openModal(this)">
+            <img src="Coffee-Flyer.jpg" alt="Projeto 3" onclick="openModal(this)">
+            <img src="Sabor & Aroma.png" alt="Projeto 4" onclick="openModal(this)">
             <!-- Adicione mais imagens conforme necessário -->
         </div>
     </section>
 
+ <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="img01">
+    </div>
+    
     <!-- Rodapé -->
     <footer>
         <p>© 2024 Todos os direitos reservados.</p>
