@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Agência de Design Gráfico</title>
+    <title>Portfólio | bgtechmind | design grafíco</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
 </head>
 <body>
@@ -24,34 +25,14 @@
     <section class="portfolio">
         <h2>Nosso Portfólio</h2>
         <div class="gallery">
-            <img src="FlyerADMBG-12-de-junho.png" alt="Projeto 1" class="portfolio-img" onclick="openModal(this)">
-            <img src="diac. ronald.png" alt="Projeto 2" onclick="openModal(this)">
-            <img src="Coffee-Flyer.jpg" alt="Projeto 3" onclick="openModal(this)">
-            <img src="Sabor & Aroma.png" alt="Projeto 4" onclick="openModal(this)">
+            <img src="FlyerADMBG-12-de-junho.png" alt="Projeto 1">
+            <img src="diac. ronald.png" alt="Projeto 2">
+            <img src="Coffee-Flyer.jpg" alt="Projeto 3">
+            <img src="Sabor & Aroma.png" alt="Projeto 4">
             <!-- Adicione mais imagens conforme necessário -->
         </div>
     </section>
 
- <!-- Modal -->
-    <div id="myModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="img01">
-    </div>
-
-    <script>
-        function openModal(img) {
-            var modal = document.getElementById("myModal");
-            var modalImg = document.getElementById("img01");
-            modal.style.display = "block";
-            modalImg.src = img.src;
-        }
-
-        function closeModal() {
-            var modal = document.getElementById("myModal");
-            modal.style.display = "none";
-        }
-    </script>
-    
     <!-- Rodapé -->
     <footer>
         <p>© 2024 Todos os direitos reservados.</p>
