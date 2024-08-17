@@ -91,7 +91,7 @@ header {
 }
 
 .hero {
-    background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo nome do arquivo da sua imagem */
+    background-image: url('flower.webp'); /* Substitua 'sua-imagem.jpg' pelo nome do arquivo da sua imagem */
     background-size: cover;
     background-position: center;
     color: white; /* Garantir que o texto seja legível */
