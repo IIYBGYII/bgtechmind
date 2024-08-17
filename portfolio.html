@@ -7,7 +7,26 @@
     <title>Portfólio | bgtechmind | design gráfico</title>
     <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
     <style>
-        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo img {
+            height: 50px;
+        }
         nav ul {
             list-style: none;
             display: flex;
@@ -35,7 +54,25 @@
             width: 100%;
             height: auto;
             display: block;
-        
+        }
+        footer {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+        }
+        .social-icons img {
+            height: 30px;
+            margin: 0 10px;
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
