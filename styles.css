@@ -58,7 +58,7 @@ header {
 .hero {
     position: relative;
     height: 400px;
-    background-image: url('flower.webp'); /* Substitua 'flower.webp' pelo nome do arquivo da sua imagem */
+    background-image: url('texture.png'); /* Substitua 'flower.webp' pelo nome do arquivo da sua imagem */
     background-size: cover;
     background-position: center;
     display: flex;
