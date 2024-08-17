@@ -70,15 +70,6 @@ header {
     padding: 60px 20px;
 }
 
-.hero-content {
-    z-index: 1;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
-    padding: 20px;
-    border-radius: 8px;
-}
-
 .hero h1 {
     font-size: 3em;
     margin: 0;
