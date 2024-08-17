@@ -90,6 +90,23 @@ header {
     font-size: 1.5em;
 }
 
+.hero {
+    background-image: url('sua-imagem.jpg'); /* Substitua 'sua-imagem.jpg' pelo nome do arquivo da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Garantir que o texto seja legível */
+    text-align: center;
+    padding: 60px 20px; /* Ajuste o preenchimento conforme necessário */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhorar a legibilidade do texto */
+    padding: 20px;
+    border-radius: 8px;
+}
+
 /* Botão de Fale Conosco */
 .contact {
     display: flex;
