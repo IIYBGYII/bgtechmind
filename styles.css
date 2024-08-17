@@ -58,17 +58,25 @@ header {
 .hero {
     position: relative;
     height: 400px;
-    background-color: #0d1117; /* Cor de fundo sólida */
+    background-image: url('flower.webp'); /* Substitua 'flower.webp' pelo nome do arquivo da sua imagem */
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #ffffff;
-    border-radius: 20px; /* Bordas arredondadas */
+    color: white;
+    border-radius: 20px;
+    padding: 60px 20px;
 }
 
 .hero-content {
     z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .hero h1 {
@@ -83,28 +91,11 @@ header {
 }
 
 .hero h1:hover {
-    transform: scale(1.01); /* Reduzindo a expansão ao passar o mouse */
+    transform: scale(1.01);
 }
 
 .hero p {
     font-size: 1.5em;
-}
-
-.hero {
-    background-image: url('flower.webp'); /* Substitua 'sua-imagem.jpg' pelo nome do arquivo da sua imagem */
-    background-size: cover;
-    background-position: center;
-    color: white; /* Garantir que o texto seja legível */
-    text-align: center;
-    padding: 60px 20px; /* Ajuste o preenchimento conforme necessário */
-}
-
-.hero-content {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhorar a legibilidade do texto */
-    padding: 20px;
-    border-radius: 8px;
 }
 
 /* Botão de Fale Conosco */
