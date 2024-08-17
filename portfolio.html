@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | bgtechmind | design gráfico</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
     <style>
         nav ul {
             list-style: none;
@@ -36,8 +36,6 @@
             display: block;
             cursor: pointer;
         }
-        
-        }
         .social-icons img {
             height: 30px;
             margin: 0 10px;
@@ -47,7 +45,6 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
-        /* Estilos para o modal */
         .modal {
             display: none;
             position: fixed;
@@ -58,7 +55,6 @@
             height: 100%;
             overflow: auto;
             background-color: rgba(0, 0, 0, 0.9);
-            display: flex;
             justify-content: center;
             align-items: center;
         }
@@ -88,7 +84,6 @@
     </style>
 </head>
 <body>
-    <!-- Cabeçalho -->
     <header>
         <div class="logo">
             <a href="index.html"><img src="bgtechmind.png" alt="Logo da Agência"></a>
@@ -100,8 +95,6 @@
             </ul>
         </nav>
     </header>
-
-    <!-- Galeria de Portfólio -->
     <section class="portfolio">
         <h2>Nosso Portfólio</h2>
         <div class="gallery">
@@ -113,27 +106,24 @@
             </div>
             <div class="gallery-item">
                 <img src="art02.png" alt="Projeto 6" onclick="openModal(this)">
+            </div>
             <div class="gallery-item">
                 <img src="Coffee-Flyer.jpg" alt="Projeto 3" onclick="openModal(this)">
             </div>
             <div class="gallery-item">
                 <img src="Sabor & Aroma.png" alt="Projeto 4" onclick="openModal(this)">
-            <div class="gallery-item">
-                <img src="art01.png" alt="Projeto 5" onclick="openModal(this)">    
             </div>
-            <!-- Adicione mais imagens conforme necessário -->
+            <div class="gallery-item">
+                <img src="art01.png" alt="Projeto 5" onclick="openModal(this)">
+            </div>
         </div>
     </section>
-
-    <!-- Modal para exibir a imagem -->
     <div id="myModal" class="modal">
         <span class="close" onclick="closeModal()">×</span>
         <div class="modal-content">
             <img id="img01">
         </div>
     </div>
-
-    <!-- Rodapé -->
     <footer>
         <p>© 2024 Todos os direitos reservados.</p>
         <div class="social-icons">
@@ -141,7 +131,6 @@
             <a href="https://www.instagram.com/bg.techmind?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="instagram.ico" alt="Instagram"></a>
         </div>
     </footer>
-
     <script>
         function openModal(element) {
             var modal = document.getElementById("myModal");
@@ -149,7 +138,6 @@
             modal.style.display = "flex";
             modalImg.src = element.src;
         }
-
         function closeModal() {
             var modal = document.getElementById("myModal");
             modal.style.display = "none";
